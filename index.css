@@ -1,0 +1,496 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+.bergamota{
+    max-width: 100%;
+    z-index: 1;
+}
+
+.bergamota-mobile{
+    width: 100%;
+    max-width: 100%;
+}
+
+/*-------------------------------- NAV -------------------------------*/
+
+header{
+    background-color: #3dbeff90;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav{
+    display: flex;
+    padding: 30px 0px 0px 30px;
+    list-style: none;
+    
+}
+
+.active{
+    margin-right: 56%;
+    scale: 1.3;
+}
+
+
+#myLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 0px 40px 0px 10px;
+}
+
+
+.navbtn{
+    width: 18.5vh;
+    height: 7.5vh;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: -10px;
+
+}
+
+.navbtn:hover{
+    color: white;
+    background-color: rgba(240, 248, 255, 0.32);
+    transition: 0.2s;
+
+}
+
+
+
+/* ------------------------ HAMBURGUER ------------------------- */
+.icon {
+    display: none;
+}
+/* ---------------------- We are creatives --------------------- */
+
+.textoSuperior{
+    position: relative;
+    text-align: center;
+    top: -90vh;
+    z-index: 3;
+    letter-spacing: 10px;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+    color: white;
+}
+
+.seta{
+    position: relative;
+    text-align: center;
+    top: -75vh;
+    z-index: 2;
+}
+
+/* ------------------- Transform your brand -------------------- */
+.transform{
+    display: flex;
+    margin-top: -26.6vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.transform-infos{
+    margin: 24vh 25vh 0 19vh;
+}
+
+.transform h2{
+    font-family: "Fraunces", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.transform p{
+    color: hsl(236, 6%, 45%);
+    margin-top: 35px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.transform button{
+    border: none;
+    box-shadow: 0px 5px 0px  rgba(255, 255, 0, 0.26);
+    background: white;
+    font-family: "Fraunces", sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 55px;
+}
+.transform button:hover{
+    box-shadow: 0px 5px 0px  rgb(255, 255, 0);
+}
+
+
+/* ------------- Stand out to the right audience --------------- */
+
+.stand{
+    display: flex;
+}
+
+.stand-infos{
+    margin: 24vh 18vh 0 18.8vh;
+}
+
+.stand h2{
+    font-family: "Fraunces", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.stand p{
+    color: hsl(236, 6%, 45%);
+    margin-top: 35px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.stand button{
+    border: none;
+    box-shadow: 0px 5px 0px  hsl(7, 99%, 70%);
+    background: white;
+    font-family: "Fraunces", sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 55px;
+}
+.stand button:hover{
+    box-shadow: 0px 5px 0px  hsl(7, 100%, 57%);
+}
+
+
+/*--------------- Graphic design and Photography ----------------*/
+.GraphicPhoto{
+    display: flex;
+    margin-top: -3px;
+    width: 100%;
+    max-width: 100%;
+}
+
+#edit{
+    width: 49.44vw;
+    max-width: 100%;
+}
+
+/* -------------------- Graphic design ------------------------- */
+.Graphic{
+    position: relative;
+    top: -28vh;
+    text-align: center;
+}
+
+.Graphic h3{
+    color: hsl(167, 40%, 24%);
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Graphic p{
+    color: hsl(168, 39%, 36%);
+    line-height: 25px;
+}
+
+/* ------------------------ Photography ------------------------ */
+.Photo{
+    position: relative;
+    top: -28vh;
+    text-align: center;
+}
+
+.Photo h3{
+    color: hsl(198, 62%, 26%);
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Photo p{
+    color: hsl(198, 62%, 26%);
+    line-height: 25px;
+}
+
+/*--------------------- Client testimonials ---------------------*/
+.client{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 15vh 25vh 15vh;
+}
+
+.client-text{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Fraunces", sans-serif;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 5px;
+    margin-bottom: 10vh;
+}
+
+.client img{
+    border-radius: 80px;
+    width: 10vh;
+    margin-bottom: 60px;
+}
+
+.client p{
+    color: hsl(236, 6%, 45%);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.client h4{
+    font-size: 20px;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.client p2{
+    color: hsl(210, 4%, 67%);
+    font-size: 15px;
+}
+
+/*--------------------------- COMIDAS ---------------------------*/
+.imgsComidas{
+    display: flex;
+}
+
+.imgsComidas img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.show-mobile   {
+    display: none;
+}
+
+/*---------------------------- FOOTER ---------------------------*/
+footer{
+    background: #90d4c5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -3px;
+    padding-top: 12vh;
+    padding-bottom: 10vh;
+    width: 100%;
+    max-width: 100%;
+}
+
+.logoFooter svg{
+    scale: 1.45;
+    margin-bottom: 7vh;
+}
+
+.linksFooter a{
+    color: hsl(168, 34%, 41%);
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.linksFooter a:hover{
+    color: white;
+}
+
+.svgsFooter svg{
+    margin-top: 12vh;
+    margin-right: 25px;
+}
+
+
+@media (max-width: 768px){
+
+header{
+    background-color: #3dbeff90;
+    height: 12vh;
+}
+.mobile-container {
+    color: white;
+    margin: 0;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    margin-left: 5px;
+    width: 90%;
+    padding: 0;
+    text-align: center;
+    background: white;
+    margin-top: 10vh;
+    display: inline-block;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .active{
+    position: fixed;
+  }
+  
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10;
+  }
+
+  .icon{
+    display: block;
+  }
+
+  #myLinks a{
+    color: hsl(236, 6%, 45%);
+  }
+
+  .navbtn{
+    background: rgb(255, 225, 0);
+    color: black;
+  }
+
+  .navbtn:hover{
+    color: rgba(0, 0, 0, 0.704);
+    background-color: rgba(255, 200, 0, 0.242);
+    transition: 0.2s;
+
+}
+
+     /* --------------------------------------- */
+
+
+    #edit{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .nav__item{
+        display: none;
+    }
+
+    .textoSuperior{
+        top:-60vh;
+        font-size: 40px;
+    }
+    .seta{
+        top:-50vh;
+        font-size: 40px;
+    }
+
+    .transform{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: -10.5vh;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .transform-infos{
+        margin: 0;
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .transform-infos h2{
+        font-size: 32px;
+    }
+
+    .stand{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30vh;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .stand-infos{
+        margin: 0;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .stand img{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .stand-infos h2{
+        font-size: 32px;
+    }
+    
+    .GraphicPhoto{
+        display: flex;
+        flex-direction: column;
+    }
+    .GraphicPhoto img{
+        width: 100%;
+    }
+
+    #photo-img{
+        margin-top: -20.5vh;
+    }
+
+    #edit{
+        margin-top: -21vh;
+    }
+
+    .client{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .client-text{
+        margin: 0;
+        margin-top: -10vh;
+    }
+
+    .client h4{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .client p{
+        margin-bottom: 40px;
+    }
+
+    .client img{
+        margin-top: 10vh;
+        margin-bottom: 25px;
+    }
+
+    .imgsComidas {
+        display: grid;
+        grid-template-columns: 10fr 10fr;
+        margin-top: 15vh;
+      }
+
+    @media only screen and (max-width: 768px) {
+    div.container-image img.show {
+        display: none; 
+    }
+    .show-mobile {
+        display: block;
+    }
+}
+      
+}
